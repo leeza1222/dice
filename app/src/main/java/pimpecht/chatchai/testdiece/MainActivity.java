@@ -59,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         DiceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                myRandomPicture(1);
+                intdic += 1;
+                if (intdic == 7) {
+                                intdic = 1;}
+                changeplay();
 
 
 
@@ -70,6 +75,9 @@ public class MainActivity extends AppCompatActivity {
         RandomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                myRandomPicture(1);
+
+                 myRandomPicture(intdic);
 
 
 
