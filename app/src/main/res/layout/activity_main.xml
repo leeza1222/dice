@@ -43,22 +43,22 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button"
+            android:id="@+id/BackButton"
+            android:layout_weight="1"
+            android:text="BackButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RandomButton"
+            android:id="@+id/RandomButton"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button2"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button3"
+            android:text="DiceButton"
+            android:id="@+id/DiceButton"
             android:layout_weight="1" />
     </LinearLayout>
 
